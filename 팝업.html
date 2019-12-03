@@ -1,0 +1,110 @@
+<html>
+
+
+
+<head>
+    <script language="JavaScript">
+                < !-- 
+            function na_open_window(name, url, left, top, width, height, toolbar, menubar, statusbar, scrollbar, resizable) {
+                toolbar_str = toolbar ? 'yes' : 'no';
+
+                menubar_str = menubar ? 'yes' : 'no';
+
+                statusbar_str = statusbar ? 'yes' : 'no';
+
+                scrollbar_str = scrollbar ? 'yes' : 'no';
+
+                resizable_str = resizable ? 'yes' : 'no';
+
+
+
+                cookie_str = document.cookie;
+                cookie_str.toString();
+
+
+                pos_start = cookie_str.indexOf(name);
+
+                pos_start = cookie_str.indexOf('=', pos_start);
+
+                pos_end = cookie_str.indexOf(';', pos_start);
+
+                if (pos_end <= 0) pos_end = cookie_str.length;
+
+                cookie_val = cookie_str.substring(pos_start + 1, pos_end);
+
+
+
+                if (cookie_val == "done")
+
+                    return;
+
+
+
+                window.open(url, name, 'left=' + left + ',top=' + top + ',width=' + width + ',height=' + height + ',toolbar=' + toolbar_str + ',menubar=' + menubar_str + ',status=' + statusbar_str + ',scrollbars=' + scrollbar_str + ',resizable=' + resizable_str);
+
+            }
+
+                // -->
+    </script>
+    <title>팝업</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+        .bg1 {
+            background-color: black;
+            color: white
+        }
+    </style>
+    <script>function closeWin() {
+            window.close();   // Closes the new window
+        }</script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid bg1">
+
+        <div class="container-fluid">
+            <img src="21.png" style="width: 100%; height: 200px">
+        </div>
+
+
+
+
+        <div class="container-fluid text-center">
+            <h5>ST Auto 부산점 오픈!!!</h5>
+
+        </div>
+
+        <div class="container-fluid text-center">
+            <h5>수입차 수리 전문 ST Auto가 부산점을 오픈하였습니다.</h5>
+            <h5>많은 이용 부탁드립니다.</h5>
+
+        </div>
+
+        <div class="container-fluid text-center">
+            <img src="20.png" style="width: 200px; height: 100px;" >
+        </div>
+
+        <div class="container-fulid text-center">
+            <button class="btn btn-outline-primary" style="width : 220px; background-color : black;  color : white;"
+                onclick="closeWin()"> 닫기</button>
+        </div>
+
+</body>
+
+</html>
